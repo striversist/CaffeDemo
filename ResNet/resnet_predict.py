@@ -13,7 +13,7 @@ MODEL_FILE = caffe_root + 'models/resnet/ResNet-50-deploy.prototxt'
 PRETRAINED = caffe_root + 'models/resnet/ResNet-50-model.caffemodel'
 IMAGE_FILE = '../images/38/n01675722_4197.JPEG'
 
-caffe.set_mode_cpu()
+caffe.set_mode_gpu()
 net = caffe.Classifier(MODEL_FILE, PRETRAINED,
                        mean=np.load('ResNet_mean.npy').mean(1).mean(1),
                        channel_swap=(2,1,0),

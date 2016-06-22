@@ -14,7 +14,7 @@ MODEL_FILE = caffe_root + 'models/bvlc_reference_caffenet/deploy.prototxt'
 PRETRAINED = caffe_root + 'models/bvlc_reference_caffenet/caffenet_train_iter_24091.caffemodel'
 IMAGE_FILE = '../../images/9/ostrich.jpg'
 
-caffe.set_mode_cpu()
+caffe.set_mode_gpu()
 net = caffe.Classifier(MODEL_FILE, PRETRAINED,
                        mean=np.load(caffe_root + 'python/caffe/imagenet/ilsvrc_2012_mean.npy').mean(1).mean(1),
                        channel_swap=(2,1,0),
