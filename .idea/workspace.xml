@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94bac9d2-4f15-46da-8d4b-d719d546bf51" name="Default" comment="" />
+    <list default="true" id="94bac9d2-4f15-46da-8d4b-d719d546bf51" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/CaffeDemo.iml" afterPath="$PROJECT_DIR$/.idea/CaffeDemo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamplePrediction/imagenet/imagenet_test.py" afterPath="$PROJECT_DIR$/ExamplePrediction/imagenet/imagenet_test.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ExamplePrediction/imagenet/images/0/n01440764_10026.JPEG" afterPath="$PROJECT_DIR$/images/0/n01440764_10026.JPEG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ExamplePrediction/imagenet/images/0/tinca.jpg" afterPath="$PROJECT_DIR$/images/0/tinca.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ExamplePrediction/imagenet/images/6/n01498041_8396.JPEG" afterPath="$PROJECT_DIR$/images/6/n01498041_8396.JPEG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ExamplePrediction/imagenet/images/6/stingray.jpg" afterPath="$PROJECT_DIR$/images/6/stingray.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ExamplePrediction/imagenet/images/9/n01518878_9400.JPEG" afterPath="$PROJECT_DIR$/images/9/n01518878_9400.JPEG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ExamplePrediction/imagenet/images/9/ostrich.jpg" afterPath="$PROJECT_DIR$/images/9/ostrich.jpg" />
+    </list>
     <ignored path="CaffeExampleTest.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -19,10 +29,11 @@
     <SUITE FILE_PATH="coverage/CaffeExampleTest$mnist_test__1_.coverage" NAME="mnist_test (1) Coverage Results" MODIFIED="1466501761604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mnist" />
     <SUITE FILE_PATH="coverage/CaffeExamplePrediction$mnist_test__1_.coverage" NAME="mnist_test (1) Coverage Results" MODIFIED="1466502077546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mnist" />
     <SUITE FILE_PATH="coverage/CaffeExampleTest$mnist_test.coverage" NAME="mnist_test Coverage Results" MODIFIED="1466499289489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mnist" />
-    <SUITE FILE_PATH="coverage/CaffeDemo$imagenet_test__1_.coverage" NAME="imagenet_test (1) Coverage Results" MODIFIED="1466502493014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ExamplePrediction/imagenet" />
+    <SUITE FILE_PATH="coverage/CaffeDemo$resnet_predict.coverage" NAME="resnet_predict Coverage Results" MODIFIED="1466563596707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ResNet" />
+    <SUITE FILE_PATH="coverage/CaffeDemo$imagenet_test__1_.coverage" NAME="imagenet_test (1) Coverage Results" MODIFIED="1466563560466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ExamplePrediction/imagenet" />
     <SUITE FILE_PATH="coverage/CaffeExamplePrediction$imagenet_test.coverage" NAME="imagenet_test Coverage Results" MODIFIED="1466502056812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/imagenet" />
     <SUITE FILE_PATH="coverage/CaffeExamplePrediction$imagenet_test__1_.coverage" NAME="imagenet_test (1) Coverage Results" MODIFIED="1466502272381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ExamplePrediction/imagenet" />
-    <SUITE FILE_PATH="coverage/CaffeDemo$mnist_test__2_.coverage" NAME="mnist_test (2) Coverage Results" MODIFIED="1466502505766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ExamplePrediction/mnist" />
+    <SUITE FILE_PATH="coverage/CaffeDemo$mnist_test__2_.coverage" NAME="mnist_test (2) Coverage Results" MODIFIED="1466557819439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ExamplePrediction/mnist" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -33,14 +44,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="imagenet_test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ExamplePrediction/imagenet/imagenet_test.py">
+      <file leaf-file-name="resnet_predict.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ResNet/resnet_predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="460">
+              <caret line="23" column="86" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="86" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,7 +71,9 @@
       <list>
         <option value="$PROJECT_DIR$/imagenet/imagenet_test.py" />
         <option value="$PROJECT_DIR$/mnist/mnist_test.py" />
+        <option value="$PROJECT_DIR$/ResNet/convert_binaryproto_to_npy.py" />
         <option value="$PROJECT_DIR$/ExamplePrediction/imagenet/imagenet_test.py" />
+        <option value="$PROJECT_DIR$/ResNet/resnet_predict.py" />
       </list>
     </option>
   </component>
@@ -119,6 +130,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CaffeDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CaffeDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CaffeDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CaffeDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -129,14 +154,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CaffeDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CaffeDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ExamplePrediction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mnist" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -147,14 +172,18 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CaffeDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CaffeDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ExamplePrediction" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="imagenet" />
+              <option name="myItemId" value="38" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -164,44 +193,27 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="G:/Projects/android-sdk-windows" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../caffe/build/install/python" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="S:\projects\PycharmProjects\CaffeExampleTest\Mnist" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="S:\projects\PycharmProjects\CaffeDemo" />
       <recent name="S:\projects\PycharmProjects\CaffeExampleTest\imagenet\images\6" />
       <recent name="S:\projects\PycharmProjects\CaffeExampleTest\imagenet\images\9" />
       <recent name="S:\projects\PycharmProjects\CaffeExampleTest\imagenet\images\0" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="S:\projects\PycharmProjects\CaffeExampleTest\Mnist" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.mnist_test (2)">
-    <configuration default="false" name="mnist_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mnist" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CaffeExampleTest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mnist/mnist_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.resnet_predict">
     <configuration default="false" name="imagenet_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -270,6 +282,24 @@
       <module name="CaffeDemo" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ExamplePrediction/mnist/mnist_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="resnet_predict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ResNet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CaffeDemo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ResNet/resnet_predict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -483,19 +513,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.mnist_test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.imagenet_test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.mnist_test (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.imagenet_test (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.mnist_test (2)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.imagenet_test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.mnist_test (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.imagenet_test (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.mnist_test (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.resnet_predict" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.mnist_test (2)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.resnet_predict" />
         <item index="1" class="java.lang.String" itemvalue="Python.imagenet_test (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.mnist_test (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.imagenet_test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.mnist_test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.mnist_test (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.mnist_test (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.imagenet_test" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
@@ -537,13 +567,13 @@
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26066098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26066098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907662" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907662" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24066797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3113949" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907662" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -593,13 +623,44 @@
     <entry file="file://$PROJECT_DIR$/mnist/test.bmp" />
     <entry file="file://$PROJECT_DIR$/mnist/mnist_test.py" />
     <entry file="file://$PROJECT_DIR$/imagenet/imagenet_test.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2016.1/system/python_stubs/578154211/numpy/core/multiarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="4183" column="8" selection-start-line="4183" selection-start-column="8" selection-end-line="4183" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/38/n01675722_4197.JPEG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResNet/convert_binaryproto_to_npy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ExamplePrediction/imagenet/imagenet_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        <state relative-caret-position="280">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResNet/resnet_predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="86" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="86" />
+          <folding />
         </state>
       </provider>
     </entry>
