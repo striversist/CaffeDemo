@@ -17,6 +17,13 @@
             </list>
           </settings>
         </remote-mappings>
+        <remote-mappings server-id="python@ssh://aaron@10.96.54.93:36000/home/aaron/anaconda2/envs/caffe/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="S:" remote-root="/home/aaron" />
+            </list>
+          </settings>
+        </remote-mappings>
       </list>
     </list>
   </component>
